@@ -1,5 +1,11 @@
 ﻿// initialize variables - graded assignments 
+using System.ComponentModel;
+using System.Data.Common;
+using System.Data.SqlTypes;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using System.Runtime.Serialization.Json;
+using System.Transactions;
 
 int currentAssignments = 5;
 
@@ -38,9 +44,19 @@ int jeongSum = 0;
 sophiaSum = sophia1 + sophia2 + sophia3 + sophia4 + sophia5;
 nicolasSum = nicolas1 + nicolas2 +  nicolas3 + nicolas4 + nicolas5; 
 zahirahSum = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5; 
-jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5; 
+jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
 
-Console.WriteLine("Sophia: " + sophiaSum); 
-Console.WriteLine("Nicolas: " + nicolasSum);
-Console.WriteLine("Zahirah: " + zahirahSum); 
-Console.WriteLine("Jeong: " + jeongSum); 
+decimal sophiaScore; 
+decimal nicolasScore; 
+decimal zahirahScore; 
+decimal jeongScore; 
+
+sophiaScore = (decimal) sophiaSum / currentAssignments; 
+nicolasScore = (decimal) nicolasSum / currentAssignments; 
+zahirahScore = (decimal) zahirahSum / currentAssignments; 
+jeongScore = (decimal) jeongSum / currentAssignments; 
+
+Console.WriteLine("Sophia: " + sophiaScore + " A"); 
+Console.WriteLine("Nicolas: " + nicolasScore + " B");
+Console.WriteLine("Zahirah: " + zahirahScore + " B"); 
+Console.WriteLine("Jeong: " + jeongScore + " A"); 
