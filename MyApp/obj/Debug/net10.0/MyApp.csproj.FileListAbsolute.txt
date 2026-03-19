@@ -1,0 +1,15 @@
+/home/eduardo/projects/Student_Grades/MyApp/bin/Debug/net10.0/MyApp
+/home/eduardo/projects/Student_Grades/MyApp/bin/Debug/net10.0/MyApp.deps.json
+/home/eduardo/projects/Student_Grades/MyApp/bin/Debug/net10.0/MyApp.runtimeconfig.json
+/home/eduardo/projects/Student_Grades/MyApp/bin/Debug/net10.0/MyApp.dll
+/home/eduardo/projects/Student_Grades/MyApp/bin/Debug/net10.0/MyApp.pdb
+/home/eduardo/projects/Student_Grades/MyApp/obj/Debug/net10.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/eduardo/projects/Student_Grades/MyApp/obj/Debug/net10.0/MyApp.AssemblyInfoInputs.cache
+/home/eduardo/projects/Student_Grades/MyApp/obj/Debug/net10.0/MyApp.AssemblyInfo.cs
+/home/eduardo/projects/Student_Grades/MyApp/obj/Debug/net10.0/MyApp.csproj.CoreCompileInputs.cache
+/home/eduardo/projects/Student_Grades/MyApp/obj/Debug/net10.0/MyApp.sourcelink.json
+/home/eduardo/projects/Student_Grades/MyApp/obj/Debug/net10.0/MyApp.dll
+/home/eduardo/projects/Student_Grades/MyApp/obj/Debug/net10.0/refint/MyApp.dll
+/home/eduardo/projects/Student_Grades/MyApp/obj/Debug/net10.0/MyApp.pdb
+/home/eduardo/projects/Student_Grades/MyApp/obj/Debug/net10.0/MyApp.genruntimeconfig.cache
+/home/eduardo/projects/Student_Grades/MyApp/obj/Debug/net10.0/ref/MyApp.dll
