@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Data.Common;
 using System.Data.SqlTypes;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization.Json;
@@ -46,6 +47,8 @@ nicolasSum = nicolas1 + nicolas2 +  nicolas3 + nicolas4 + nicolas5;
 zahirahSum = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5; 
 jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
 
+
+// AVERAGE OF STUDENT SCORES 
 decimal sophiaScore; 
 decimal nicolasScore; 
 decimal zahirahScore; 
@@ -56,7 +59,9 @@ nicolasScore = (decimal) nicolasSum / currentAssignments;
 zahirahScore = (decimal) zahirahSum / currentAssignments; 
 jeongScore = (decimal) jeongSum / currentAssignments; 
 
-Console.WriteLine("Sophia: " + sophiaScore + " A"); 
-Console.WriteLine("Nicolas: " + nicolasScore + " B");
-Console.WriteLine("Zahirah: " + zahirahScore + " B"); 
-Console.WriteLine("Jeong: " + jeongScore + " A"); 
+Console.WriteLine("Student\tGrades\n");
+
+Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA"); 
+Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
+Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB"); 
+Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA"); 
